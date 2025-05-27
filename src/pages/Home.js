@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const titles = [
-  "Engineers",
+  "Engineer",
   "Full-Stack Developer",
   "Problem Solver",
   "Tech Enthusiast",
