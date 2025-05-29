@@ -17,7 +17,7 @@ const projects = [
   {
     title: "UofT Housing",
     description:
-      "A marketplace platform for UofT students to sublet housing, find roommates, and buy/sell furniture. Built with React, Flask, and PostgreSQL, it features user authentication, real-time messaging between buyers and sellers, dynamic listing creation with images and filters, interactive maps, and secure email verification and password reset flows.",
+      "A marketplace platform exclusively for University of Toronto students to sublet housing, find roommates, and buy/sell furniture. Built with React, Flask, and PostgreSQL, it features user authentication, real-time messaging between buyers and sellers, dynamic listing creation with images and filters, interactive maps, and secure email verification and password reset flows.",
     tags: ["React", "Flask", "PostgreSQL", "Python", "HTML", "CSS", "JavaScript", "Tailwind CSS"],
     image: uoftHousingImg,
     link: "https://github.com/nathwung/uoft-housing"
