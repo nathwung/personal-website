@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { Briefcase, GraduationCap, BadgeCheck, Calendar } from "lucide-react";
+import { Briefcase, Users, GraduationCap, BadgeCheck, Calendar } from "lucide-react";
 
 export default function Experience() {
   const location = useLocation();
@@ -10,6 +10,20 @@ export default function Experience() {
 
   const work = [
     {
+      title: "Front-End Web Developer",
+      org: "Educa8.Info",
+      date: "May 2024 – Aug 2024",
+      points: [
+        "Developed websites for schools’ student, teacher, parent, and administrator portals using HTML, CSS, and JavaScript, leveraging Vue.js within the Quasar Framework",
+        "Communicated with back-end developers to resolve API integration and data sync issues using Chrome DevTools, and improve API response times by 30% through reducing payload size",
+        "Utilized SQL queries in MySQL via phpMyAdmin to verify that data stored, edited, or deleted through the User Interface was accurately reflected in the database",
+        "Presented to and communicated with clients, ensuring the websites met their needs, gathered feedback, and made further refinements to enhance overall User Experience"
+      ]
+    }
+  ];
+
+  const leadership = [
+        {
       title: "Digital Launchpad Associate",
       org: "You're Next Career Network",
       date: "Apr 2025 – Present",
@@ -38,19 +52,8 @@ export default function Experience() {
         "Developed and deployed a responsive, high-performance web platform using React, Next.js, Tailwind CSS, and TypeScript for seamless content management",
         "Improved site load times by 35% and enabled non-technical team members to manage content efficiently, increasing engagement with AI resources"
       ]
-    },
-    {
-      title: "Front-End Web Developer",
-      org: "Educa8.Info",
-      date: "May 2024 – Aug 2024",
-      points: [
-        "Developed websites for schools’ student, teacher, parent, and administrator portals using HTML, CSS, and JavaScript, leveraging Vue.js within the Quasar Framework",
-        "Communicated with back-end developers to resolve API integration and data sync issues using Chrome DevTools, and improve API response times by 30% through reducing payload size",
-        "Utilized SQL queries in MySQL via phpMyAdmin to verify that data stored, edited, or deleted through the User Interface was accurately reflected in the database",
-        "Presented to and communicated with clients, ensuring the websites met their needs, gathered feedback, and made further refinements to enhance overall User Experience"
-      ]
     }
-  ];
+  ]
 
   const education = [
     {
@@ -68,6 +71,7 @@ export default function Experience() {
 
   const tabs = [
     { key: "work", icon: <Briefcase />, label: "Work" },
+    { key: "leadership", icon: <Users />, label: "Leadership" },
     { key: "education", icon: <GraduationCap />, label: "Education" },
     { key: "certs", icon: <BadgeCheck />, label: "Certifications" }
   ];
@@ -132,6 +136,45 @@ export default function Experience() {
                 className="relative ml-6 space-y-8 pl-4 before:content-[''] before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-gradient-to-b before:from-purple-500 before:via-indigo-500 before:to-blue-500 before:rounded"
               >
                 {work.map((item, i) => (
+                <motion.div
+                    key={i}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: i * 0.15 }}
+                    className="relative"
+                >
+                    <div className="absolute -left-[1.4rem] top-0 translate-y-0 w-4 h-4 bg-gradient-to-b from-purple-500 via-indigo-500 to-blue-500 rounded-full border-4 border-white shadow z-20" />
+                    <div className="relative bg-white border border-gray-200 rounded-2xl shadow-lg hover:shadow-[0_12px_28px_rgba(124,58,237,0.25)] transition duration-300 p-6 text-left overflow-hidden">
+                    <div className="absolute top-0 left-0 h-full w-1 bg-gradient-to-b from-purple-500 via-indigo-500 to-blue-500 rounded-tl-2xl rounded-bl-2xl" />
+                    <div className="pl-4">
+                        <p className="flex items-center text-sm text-gray-500 mb-1">
+                        <Calendar className="w-4 h-4 mr-1 text-purple-500" />
+                        {item.date}
+                        </p>
+                        <h3 className="text-xl font-semibold text-purple-600">{item.title}</h3>
+                        <p className="font-semibold text-black mb-3">{item.org}</p>
+                        <ul className="list-disc list-inside space-y-2 text-gray-600">
+                        {item.points.map((point, j) => (
+                            <li key={j} className="leading-relaxed">{point}</li>
+                        ))}
+                        </ul>
+                    </div>
+                    </div>
+                </motion.div>
+                ))}
+              </motion.div>
+            )}
+
+            {tab === "leadership" && (
+              <motion.div
+                key="leadership"
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.5 }}
+                className="relative ml-6 space-y-8 pl-4 before:content-[''] before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-gradient-to-b before:from-purple-500 before:via-indigo-500 before:to-blue-500 before:rounded"
+              >
+                {leadership.map((item, i) => (
                 <motion.div
                     key={i}
                     initial={{ opacity: 0, y: 20 }}
