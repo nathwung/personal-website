@@ -105,7 +105,7 @@ export default function About() {
             } />
 
             <TypingText content={
-              `When I’m not deep in a React component or optimizing a Flask route, you’ll find me on the <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">basketball court</span> (yes, I'm the biggest LeBron fan) or planning my next <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">travel adventure</span>, or rewatching <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">Interstellar</span> for the tenth time!`
+              `When I’m not deep in a React component or optimizing a Flask route, you’ll find me on the <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">basketball court</span> (yes, I'm the biggest LeBron fan) or planning my next <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">travel adventure</span>, or rewatching <span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent italic">Interstellar</span> for the tenth time!`
             } />
 
             <TypingText content={
