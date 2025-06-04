@@ -14,10 +14,9 @@ export default function Experience() {
       org: "Educa8.Info",
       date: "May 2024 – Aug 2024",
       points: [
-        "Developed websites for schools’ student, teacher, parent, and administrator portals using HTML, CSS, and JavaScript, leveraging Vue.js within the Quasar Framework",
-        "Communicated with back-end developers to resolve API integration and data sync issues using Chrome DevTools, and improve API response times by 30% through reducing payload size",
-        "Utilized SQL queries in MySQL via phpMyAdmin to verify that data stored, edited, or deleted through the User Interface was accurately reflected in the database",
-        "Presented to and communicated with clients, ensuring the websites met their needs, gathered feedback, and made further refinements to enhance overall User Experience"
+        "Developed dedicated school websites for students, teachers, parents, and administrators using Vue.js within the Quasar Framework, improving access and usability across user groups",
+        "Collaborated with backend developers to resolve API and data sync issues, improving response times by 30% through payload optimization",
+        "Validated user data interactions via MySQL and gathered client feedback to refine UX and ensure feature accuracy"
       ]
     }
   ];
@@ -38,9 +37,9 @@ export default function Experience() {
       org: "Engineers Without Borders: University of Toronto Chapter",
       date: "Jan 2025 – Apr 2025",
       points: [
-        "Developed and maintained the chapter’s website using React, Node.js, and TypeScript, improving load times by 25% and enhancing accessibility",
+        "Developed and optimized the chapter’s website using React, TypeScript, and Node.js, improving load times by 25% and enhancing accessibility",
         "Led and mentored a team of 6 developers, providing technical guidance and constructive feedback through code reviews and debugging sessions",
-        "Implemented CI/CD pipelines, automating build, testing, and deployment processes to ensure faster releases and consistent code quality"
+        "Built CI/CD pipelines to automate testing and deployment, enabling faster, more reliable releases"
       ]
     },
     {
@@ -48,9 +47,9 @@ export default function Experience() {
       org: "University of Toronto Machine Intelligence Student Team",
       date: "Oct 2024 – Apr 2025",
       points: [
-        "Redesigned the organization’s website using Figma, enhancing UI/UX for improved accessibility and engagement",
-        "Developed and deployed a responsive, high-performance web platform using React, Next.js, Tailwind CSS, and TypeScript for seamless content management",
-        "Improved site load times by 35% and enabled non-technical team members to manage content efficiently, increasing engagement with AI resources"
+        "Created dynamic event and alumni pages with React, Next.js, Tailwind CSS, and TypeScript, enabling scalable, real-time content updates",
+        "Implemented Firebase auth and content management for secure, real-time updates without backend servers",
+        "Reduced manual updates by 70% through a self-serve admin dashboard, enabling non-technical team members to manage site content independently"
       ]
     }
   ]
