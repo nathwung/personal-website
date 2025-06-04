@@ -31,7 +31,7 @@ export default function Skills() {
         title: "Programming Languages",
         icon: <FaTerminal className="text-purple-600 text-xl" />,
         skills: [
-        "C", "C++", "Python", "Java", "Assembly Language",
+        "C", "C++", "Python", "Java", "Assembly",
         "Verilog", "LaTeX", "MATLAB"
         ],
     },
