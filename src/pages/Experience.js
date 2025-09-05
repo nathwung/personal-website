@@ -28,7 +28,7 @@ export default function Experience() {
       date: "Apr 2025 – Present",
       points: [
         "Developed forms.yourenext.ca by collaborating rotationally with other DLP associates",
-        "Built a registration app for 300+ participants using Node.js and Firebase to streamline data management",
+        "Built a registration app using React and Firebase for 300+ participants, streamlining data management",
         "Contributed to raising $15K annually to support UofT engineering clubs and student career development"
       ]
     },
@@ -37,7 +37,7 @@ export default function Experience() {
       org: "Engineers Without Borders: University of Toronto Chapter",
       date: "Jan 2025 – Apr 2025",
       points: [
-        "Developed and optimized the chapter’s website using React, TypeScript, and Node.js, improving load times by 25% and enhancing accessibility",
+        "Created and optimized the chapter’s website using React, TypeScript, and Node.js, improving load times by 25%",
         "Led and mentored a team of 6 developers, providing technical guidance and constructive feedback through code reviews and debugging sessions",
         "Built CI/CD pipelines to automate testing and deployment, enabling faster, more reliable releases"
       ]
@@ -47,7 +47,7 @@ export default function Experience() {
       org: "University of Toronto Machine Intelligence Student Team",
       date: "Oct 2024 – Apr 2025",
       points: [
-        "Created dynamic event and alumni pages with React, Next.js, Tailwind CSS, and TypeScript, enabling scalable, real-time content updates",
+        "Built dynamic event and alumni pages with React, Next.js, Tailwind CSS, and TypeScript, enabling scalable, real-time content updates",
         "Implemented Firebase auth and content management for secure, real-time updates without backend servers",
         "Reduced manual updates by 70% through a self-serve admin dashboard, enabling non-technical team members to manage site content independently"
       ]
