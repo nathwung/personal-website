@@ -27,9 +27,9 @@ export default function Experience() {
       org: "You're Next Career Network",
       date: "Apr 2025 – Present",
       points: [
-        "Developed forms.yourenext.ca by collaborating rotationally with other DLP associates",
-        "Built a registration app using React and Firebase for 300+ participants, streamlining data management",
-        "Contributed to raising $15K annually to support UofT engineering clubs and student career development"
+        "Developed an event sign-up platform with React and Firebase, streamlining registrations for 3,500+ students",
+        "Built an event participation ranking using SQL queries to retrieve attendance data, boosting engagement by 55%",
+        "Showcased sponsors on the main website, driving $120K+ in revenue to support student career development"
       ]
     },
     {
